@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para o corpo da página */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para o contêiner principal */
+.container {
+  width: 500px;
+  margin: 100px;
+  padding: 20px;
+  text-align: center;
+  background-color: #d1d1d1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o modelo de caixa dentro do contêiner */
+.box-model {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Estilos para o cabeçalho da página */
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Estilos para a entrada de tarefa */
+#taskInput {
+  width: calc(80% - 10px);
+  height: 32px;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+/* Estilos para a lista de tarefas */
+ul {
+  list-style-type: none;
+  padding: 0;
+  text-transform: capitalize;
+}
+
+/* Estilos para cada item da lista de tarefas */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Estilos para o texto da tarefa dentro do item da lista */
+li span {
+  flex-grow: 1;
+}
+
+/* Estilos para o botão de adicionar */
+#addButton {
+  width: calc(20% - 8px);
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #008000;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+}
+
+
+/* Estilos para o botão de remover */
+.remove-button {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
